@@ -72,7 +72,7 @@ function mostraAlternativas() {
             atual++;
             mostraPerguntas();
         })
-        caixaalternativas.appendChild(botaoAlternativa);
+        caixaAlternativas.appendChild(botaoAlternativa);
 
     }
 
