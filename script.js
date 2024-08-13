@@ -51,8 +51,13 @@ const perguntas = [
                     afirmação: "afirmação",
                 }]
     },
-
-
-
-
 ]
+
+let atual = 0;
+let perguntaatual;
+
+function mostraperguntas (){
+
+    perguntaatual= pergunta [atual];
+    caixaperguntas.textContent = perguntaatual.enunciado;
+}
