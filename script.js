@@ -56,10 +56,10 @@ const perguntas = [
 let atual = 0;
 let perguntaAtual;
 
-function mostraperguntas (){
+function mostraPerguntas (){
 
     perguntaatual= pergunta [atual];
     caixaperguntas.textContent = perguntaatual.enunciado;
 }
 
-mostraperguntas();
+mostraPerguntas();
