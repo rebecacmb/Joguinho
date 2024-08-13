@@ -58,8 +58,8 @@ let perguntaAtual;
 
 function mostraPerguntas (){
 
-    perguntaatual= pergunta [atual];
-    caixaperguntas.textContent = perguntaAtual.enunciado;
+    perguntaAtual= perguntas [atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
 }
 
 mostraPerguntas();
