@@ -92,6 +92,8 @@ mostraAlternativas();
 function mostraResultado(){
 
     caixaalternativas.textContent = "Em resumo, escolhas "
+    textoresultados.textContent = historiaFinal ;
+    caixaalternativas.textContent = "";
 }
 
 mostraPerguntas();
